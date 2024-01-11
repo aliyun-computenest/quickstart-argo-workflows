@@ -64,7 +64,7 @@ Argo Workflows服务需要对ECS、VPC、ACK等资源进行访问和创建操作
 | 是否新建ack集群 | K8s集群ID   | ccde6deb0f612402786e611a7e1230d | 根据地域选择地域中用户已有的集群id           |
 
 ### 部署参数说明
-您在创建服务实例的过程中，需要配置服务实例信息。下文介绍ArgoCD服务实例输入参数的详细信息。
+您在创建服务实例的过程中，需要配置服务实例信息。下文介绍Argo Workflows服务实例输入参数的详细信息。
 #### 已有ack集群
 是否新建ack集群参数选择否时，代表现在已有ack集群，此时需要填写以下参数。
 
@@ -108,7 +108,6 @@ Argo Workflows服务需要对ECS、VPC、ACK等资源进行访问和创建操作
 
 ![detail.png](detail.png)
 
-3.通过实例详情中Endpoint链接，通过返回Admin账号密码，可以访问ArgoCD服务页面，使用对应的功能
+3.通过实例详情中Endpoint链接，通过返回Admin账号密码，可以访问Argo Workflows服务页面，使用对应的功能
 
-![product_1.png](product_1.png)
-![product_2.png](product_2.png)
+![product.png](product.png)
